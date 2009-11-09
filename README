@@ -1,0 +1,11 @@
+RequestContext
+==============
+Reference the controller and request context anywhere in you application.
+
+
+Example
+=======
+RequestContext.request.try( :referer )
+RequestContext.session
+
+Copyright (c) 2009 Blythe Dunham, released under the MIT license
